@@ -298,18 +298,18 @@ else:
             
 print()   
 time.sleep(2)       
-print("\t COUNT DOWN TO STEAM FESTIVAL.")
+print("\t COUNT DOWN TO AISEC BUSINESS MENTORSHIP.")
 days = datetime.today().day
 hours = datetime.today().hour
 minutes = datetime.today().minute
 seconds = datetime.today().second
 
-days_remain = 16 - days
+days_remain = 24 - days
 hours_remain = 24 - hours
 minutes_remain = 59 - minutes
 seconds_remain = 59 - seconds
 
-while days < 16:
+while days < 24:
     print("Days: ", days_remain, "\t Hours: ",hours_remain, "\t Minutes: ",minutes_remain, "\t Seconds: ", seconds_remain)
     print()
     time.sleep(1)
@@ -319,7 +319,7 @@ while days < 16:
     minutes = datetime.today().minute
     seconds = datetime.today().second
 
-    days_remain = 16 - days
+    days_remain = 24 - days
     hours_remain = 24 - hours
     minutes_remain = 59 - minutes
     seconds_remain = 59 - seconds
