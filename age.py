@@ -333,8 +333,6 @@ def final_fun():
     count_down()
 
 
-final_fun()
-
 
 
 
