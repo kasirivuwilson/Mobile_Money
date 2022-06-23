@@ -1,9 +1,11 @@
+from select import select
 import time
 
 print('\t welcome to airtel money services.'.upper())
 print()
 time.sleep(1)
 
+your_phone_number = input('Enter your phone number please: ')
 code = input('Enter mobile money code: ')
 code_list = list(code)
 space = ' ' in code_list
@@ -62,7 +64,7 @@ if "".join(code_list) == '*185#':
             """)
             pin = input(' ')
             print("""
-            Transaction in progess.
+            Transaction in progress.
             """)
 
         elif send_money == '2':
@@ -87,7 +89,7 @@ if "".join(code_list) == '*185#':
             """)
             pin = input(' ')
             print("""
-            Transaction in progess.
+            Transaction in progress.
             """)
 
 
@@ -112,7 +114,7 @@ if "".join(code_list) == '*185#':
             """)
             pin = input(' ')
             print("""
-            Transaction in progess.
+            Transaction in progress.
             """)
 
         elif send_money == '4':
@@ -242,6 +244,79 @@ if "".join(code_list) == '*185#':
 
                 0.Back 00.Main Menu
                 """)
+                service_provider = input(' ')
+                if service_provider == '1':
+                    print("""
+                    Enter Tanzanian number
+
+                    0.Back 00.Main Menu
+                    """)
+                    number = input(' ')
+                    print("""
+                    Enter amount to send in UGX
+
+                    0.Back 00.Main Menu
+                    """)
+                    amount = input(' ')
+                    print(f"""
+                    Sending {amount} to {number}
+                    Confirm your PIN
+
+                    0.Back 00.Main Menu
+                    """)
+                    pin = input(' ')
+                    print("""
+                    Transaction in progress.
+                    """)
+                elif service_provider == '2':
+                    print("""
+                    Enter Mpesa Number
+
+                    0.Back 00.Main Menu
+                    """)
+                    number = input(' ')
+                    print("""
+                    Enter amount to send in UGX
+
+                    0.Back 00.Main Menu
+                    """)
+                    amount = input(' ')
+                    print(f"""
+                    Sending {amount} to {number}
+                    Confirm your PIN
+
+                    0.Back 00.Main Menu
+                    """)
+                    pin = input(' ')
+                    print("""
+                    Transaction in progress.
+                    """)
+                elif service_provider == '3':
+                    print("""
+                    Enter Tigo Pesa Number
+
+                    0.Back 00.Main Menu
+                    """)
+                    number = input(' ')
+                    print("""
+                    Enter amount to send in UGX
+
+                    0.Back 00.Main Menu
+                    """)
+                    amount = input(' ')
+                    print(f"""
+                    Sending {amount} to {number}
+                    Confirm your PIN
+
+                    0.Back 00.Main Menu
+                    """)
+                    pin = input(' ')
+                    print("""
+                    Transaction in progress.
+                    """)
+                else:
+                    print('Invalid selection.')
+
             elif country_transfer == '4':
                 print("""
                 1.Airtel
@@ -249,30 +324,184 @@ if "".join(code_list) == '*185#':
 
                 0.Back 00.Main Menu
                 """)
+                selection = input(' ')
+                if selection == '1':
+                    print("""
+                    Enter Malawi number
+
+                    0.Back 00.Main Menu
+                    """)
+                    number = input(' ')
+                    print("""
+                    Enter amount to send in UGX
+
+                    0.Back 00.Main Menu
+                    """)
+                    amount = input(' ')
+                    print(f"""Sending {amount} to {number}
+                    Confirm your PIN
+
+                    0.Back 00.Main Menu
+                    """)
+                    pin = input(' ')
+                    print("""
+                    Transaction in progress.
+                    """)
+                elif selection == '2':
+                    print("""
+                    Enter TNM Number
+
+                    0.Back 00.Main Menu
+                    """)
+                    number = input(' ')
+                    print("""
+                    Enter amount to send in UGX
+                    
+                    0.Back 00. Main Menu
+                    """)
+                    amount = input(' ')
+                    print(f"""
+                    Sending {amount} to {number}
+                    Confirm your PIN
+
+                    0.Back 00.Main Menu
+                    """)
+                    pin = input(' ')
+                    print("""
+                    Transaction in progress.
+                    """)
+                else:
+                    print('Invalid selection.')
             elif country_transfer == '5':
                 print("""
                 1.EcoCash
                 
                 0.Back 00.Main Menu
                 """)
+                selection = input(' ')
+                if selection == '1':
+                    print("""
+                    Enter EcoCash Number
+
+                    0.Back 00.Main Menu
+                    """)
+                    number = input(' ')
+                    print("""
+                    Enter amount to send in UGX
+
+                    0.Back 00.Main Menu
+                    """)
+                    amount = input(' ')
+                    print(f"""
+                    Sending {amount} to {number}
+                    Confirm your PIN
+
+                    0.Back 00.Main Menu
+                    """)
+                    pin = input(' ')
+                    print("""
+                    Transaction in progress.
+                    """)
+                else:
+                    print('Invalid selection.')
             elif country_transfer == '6':
                 print("""
                 1.EcoCash
 
                 0.Back 00.Main Menu
                 """)
+                selection = input(' ')
+                if selection == '1':
+                    print("""
+                    Enter EcoCash Number
+
+                    0.Back 00.Main Menu
+                    """)
+                    number = input(' ')
+                    print("""
+                    Enter amount to send in UGX
+
+                    0.Back 00.Main Menu
+                    """)
+                    amount = input(' ')
+                    print(f"""
+                    Sending {amount} to {number}
+                    Confirm your PIN
+
+                    0.Back 00.Main Menu
+                    """)
+                    pin = input(' ')
+                    print("""
+                    Transaction in progress.
+                    """) 
+                else:
+                    print('Invalid selection.')
             elif country_transfer == '7':
                 print("""
                 1.HelloCash
 
                 0.Back 00.Main Menu
                 """)
+                selection = input(' ')
+                if selection == '1':
+                    print("""
+                    Enter Hellocash Number
+
+                    0.Back 00.Main Menu
+                    """)
+                    number = input(' ')
+                    print("""
+                    Enter amount to send in UGX
+
+                    0.Back 00.Main Menu
+                    """)
+                    amount = input(' ')
+                    print(f"""
+                    Sending {amount} to {number}
+                    Confirm your PIN
+
+                    0.Back 00.Main Menu
+                    """)
+                    pin = input(' ')
+                    print("""
+                    Transaction in progress.
+                    """) 
+                else:
+                    print('Invalid selection.')
+
             elif country_transfer == '8':
                 print("""
                 1.Orange Money
 
                 0.Back 00.Main Menu
                 """)
+                selection = input(' ')
+                if selection == '1':
+                    print("""
+                    Enter Orange Money Number
+
+                    0.Back 00.Main Menu
+                    """)
+                    number = input(' ')
+                    print("""
+                    Enter amount to send in UGX
+
+                    0.Back 00.Main Menu
+                    """)
+                    amount = input(' ')
+                    print(f"""
+                    Sending {amount} to {number}
+                    Confirm your PIN
+
+                    0.Back 00.Main Menu
+                    """)
+                    pin = input(' ')
+                    print("""
+                    Transaction in progress.
+                    """) 
+                else:
+                    print('Invalid selection.')
+
             elif country_transfer == '9':
                 print("""
                 1.Safaricom MPESA
@@ -280,6 +509,54 @@ if "".join(code_list) == '*185#':
 
                 0.Back 00.Main Menu
                 """)
+                selection = input(' ')
+                if selection == '1':
+                    print("""
+                    Enter MPESA Number
+
+                    0.Back 00.Main Menu
+                    """)
+                    number = input(' ')
+                    print("""
+                    Enter amount to send in UGX
+
+                    0.Back 00.Main Menu
+                    """)
+                    amount = input(' ')
+                    print(f"""
+                    Sending {amount} to {number}
+                    Confirm your PIN
+
+                    0.Back 00.Main Menu
+                    """)
+                    pin = input(' ')
+                    print("""
+                    Transaction in progress.
+                    """)
+                elif selection == '2':
+                    print("""
+                    Enter Airtel Kenya Number(Without Country Code)
+                    """)
+                    number = input(' ')
+                    print("""
+                    Enter amount to send in UGX
+
+                    0.Back 00.Main Menu
+                    """)
+                    amount = input(' ')
+                    print(f"""
+                    Sending {amount} to {number}
+                    Confirm your PIN
+
+                    0.Back 00.Main Menu
+                    """)
+                    pin = input(' ')
+                    print("""
+                    Transaction in progress.
+                    """) 
+                else:
+                    print('Invalid selection.')
+
             elif country_transfer == '10':
                 print("""
                 1.Airtel
@@ -288,6 +565,79 @@ if "".join(code_list) == '*185#':
 
                 0.Back 00.Main Menu
                 """)
+                selection = input(' ')
+                if selection == '1':
+                    print("""
+                    Enter Airtel Number
+
+                    0.Back 00.Main Menu
+                    """)
+                    number = input(' ')
+                    print("""
+                    Enter amount to send in UGX
+
+                    0.Back 00.Main Menu
+                    """)
+                    amount = input(' ')
+                    print(f"""
+                    Sending {amount} to {number}
+                    Confirm your PIN
+
+                    0.Back 00.Main Menu
+                    """)
+                    pin = input(' ')
+                    print("""
+                    Transaction in progress.
+                    """)
+                elif selection == '2':
+                    print("""
+                    Enter Orange Number
+
+                    0.Back 00.Main Menu
+                    """)
+                    number = input(' ')
+                    print("""
+                    Enter amount to send in UGX
+
+                    0.Back 00.Main Menu
+                    """)
+                    amount = input(' ')
+                    print(f"""
+                    Sending {amount} to {number}
+                    Confirm your PIN
+
+                    0.Back 00.Main Menu
+                    """)
+                    pin = input(' ')
+                    print("""
+                    Transaction in progress.
+                    """) 
+                elif selection == '3':
+                    print("""
+                    Enter Illico Number
+
+                    0.Back 00.Main Menu
+                    """)
+                    number = input(' ')
+                    print("""
+                    Enter amount to send in UGX
+
+                    0.Back 00.Main Menu
+                    """)
+                    amount = input(' ')
+                    print(f"""
+                    Sending {amount} to {number}
+                    Confirm your PIN
+
+                    0.Back 00.Main Menu
+                    """)
+                    pin = input(' ')
+                    print("""
+                    Transaction in progress.
+                    """) 
+                else:
+                    print('Invalid selection.')
+
             elif country_transfer == '11':
                 print("""
                 1.MGurush
@@ -295,24 +645,154 @@ if "".join(code_list) == '*185#':
 
                 0.Back 00.Main Menu
                 """)
+                selection = input(' ')
+                if selection == '1':
+                    print("""
+                    Enter MGurush Number
+
+                    0.Back 00.Main Menu
+                    """)
+                    number = input(' ')
+                    print("""
+                    Enter amount to send in UGX
+
+                    0.Back 00.Main Menu
+                    """)
+                    amount = input(' ')
+                    print(f"""
+                    Sending {amount} to {number}
+                    Confirm your PIN
+
+                    0.Back 00.Main Menu
+                    """)
+                    pin = input(' ')
+                    print("""
+                    Transaction in progress.
+                    """)
+                elif selection == '2':
+                    print("""
+                    Enter NilePay Number
+
+                    0.Back 00.Main Menu
+                    """)
+                    number = input(' ')
+                    print("""
+                    Enter amount to send in UGX
+
+                    0.Back 00.Main Menu
+                    """)
+                    amount = input(' ')
+                    print(f"""
+                    Sending {amount} to {number}
+                    Confirm your PIN
+
+                    0.Back 00.Main Menu
+                    """)
+                    pin = input(' ')
+                    print("""
+                    Transaction in progress.
+                    """) 
+                else:
+                    print('Invalid selection.')
+
             elif country_transfer == '12':
                 print("""
                 1.MTN Mobile Money
 
                 0.Back 00.Main Menu
                 """)
+                selection = input(' ')
+                if selection == '1':
+                    print("""
+                    Enter MTN Number
+
+                    0.Back 00.Main Menu
+                    """)
+                    number = input(' ')
+                    print("""
+                    Enter amount to send in UGX
+
+                    0.Back 00.Main Menu
+                    """)
+                    amount = input(' ')
+                    print(f"""
+                    Sending {amount} to {number}
+                    Confirm your PIN
+
+                    0.Back 00.Main Menu
+                    """)
+                    pin = input(' ')
+                    print("""
+                    Transaction in progress.
+                    """) 
+                else:
+                    print('Invalid selection.')
+
             elif country_transfer == '13':
                 print("""
                 1.MTN Mobile Money
 
                 0.Back 00.Main Menu
                 """)
+                selection = input(' ')
+                if selection == '1':
+                    print("""
+                    Enter MTN Number
+
+                    0.Back 00.Main Menu
+                    """)
+                    number = input(' ')
+                    print("""
+                    Enter amount to send in UGX
+
+                    0.Back 00.Main Menu
+                    """)
+                    amount = input(' ')
+                    print(f"""
+                    Sending {amount} to {number}
+                    Confirm your PIN
+
+                    0.Back 00.Main Menu
+                    """)
+                    pin = input(' ')
+                    print("""
+                    Transaction in progress.
+                    """)
+                else:
+                    print('Invalid selection.')
+
             elif country_transfer == '14':
                 print("""
                 1.Alipay Wallet china
 
                 0.Back 00.Main Menu
                 """)
+                selection = input(' ')
+                if selection == '1':
+                    print("""
+                    Enter Alipay Number
+
+                    0.Back 00.Main Menu
+                    """)
+                    number = input(' ')
+                    print("""
+                    Enter amount to send in UGX
+
+                    0.Back 00.Main Menu
+                    """)
+                    amount = input(' ')
+                    print(f"""
+                    Sending {amount} to {number}
+                    Confirm your PIN
+
+                    0.Back 00.Main Menu
+                    """)
+                    pin = input(' ')
+                    print("""
+                    Transaction in progress.
+                    """) 
+                else:
+                    print('Invalid selection.')
             else:
                 print('Invalid selection.')
         else:
@@ -321,12 +801,337 @@ if "".join(code_list) == '*185#':
         print("""
         Airtime / Bundles
         1.Buy Airtime
-        2. Buy Data Bundles(Offers Inside)
+        2.Buy Data Bundles(Offers Inside)
         3.Buy Voice Bundles
         4.IControl
 
         0.Back 00.Main Menu
         """)
+        selection = input(' ')
+        if selection == '1':
+            print("""
+            Buy Airtime 
+            1.For Myself
+            2.For Another Number
+
+            0.Back 00.Main Menu
+            """)
+            more_selection = input(' ')
+            if more_selection == '1':
+                print("""
+                Enter Amount
+
+                0.Back 00.Main Menu
+                """)
+                amount = input(' ')
+                print(f"""
+                Airtime Top of UGX {amount} for {your_phone_number}.
+                Confirm with your PIN
+
+                0.Back 00.Main Menu
+                """)
+                pin = input(' ')
+                print("""
+                Transaction in progress.
+                """)
+            elif selection == '2':
+                print("""
+                Enter Mobile Number
+
+                0.Back 00.Main Menu
+                """)
+                number = input(' ')
+                print("""
+                Enter Amount
+
+                0.Back 00.Main Menu
+                """)
+                amount = input(' ')
+                print("""
+                Airtime Top up of UGX {amount} for ABEJA AGATHA  {number}.
+                Confirm with your PIN
+
+                0.Back 00.Main Menu
+                """)
+                pin = input(' ')
+                print("""
+                Transaction in progress.
+                """)
+            else:
+                print('Invalid selection.')
+        elif selection == '2':
+            print("""
+            Data Bundles 
+            1.Buy for Self
+            2.Buy for Another
+
+            0.Back 00.Main Menu
+            """)
+            more_selection = input(' ')
+            if more_selection == '1':
+                print("""
+                1 Daily
+                2 Weekly
+                3 Monthly
+                4 TV Bundles
+                5 Chillax Bundles
+                6 Roaming Data
+                * Back
+                """)
+                further_selection = input(' ')
+                if further_selection == '1':
+                    print("""
+                    1 500/- for 80MB
+                    2 1000/- for 180MB
+                    3 2000/- for 400MB
+                    4 5000/- for 2GB
+                    5 250/- for 30MB
+                    6 11500/- for 4GB (3Days)
+                    7 7500/- for 2GB (3Days)
+                    8 Night 2GB @ 2K
+                    n next
+                    * Back
+                    """)
+                    data_selection = input(' ')
+                    if data_selection == '1':
+                        print("""
+                        Enter PIN
+                        """)
+                        pin = input(' ')
+                        print("""
+                        Transaction in progress.
+                        """)
+                    elif data_selection == '2':
+                        print("""
+                        Enter PIN
+                        """)
+                        pin = input(' ')
+                        print("""
+                        Transaction in progress.
+                        """)
+                    elif data_selection == '3':
+                        print("""
+                        Enter PIN
+                        """)
+                        pin = input(' ')
+                        print("""
+                        Transaction in progress.
+                        """)
+                    elif data_selection == '4':
+                        print("""
+                        Enter PIN
+                        """)
+                        pin = input(' ')
+                        print("""
+                        Transaction in progress.
+                        """)
+                    elif data_selection == '5':
+                        print("""
+                        Enter PIN
+                        """)
+                        pin = input(' ')
+                        print("""
+                        Transaction in progress.
+                        """)
+                    elif data_selection == '6':
+                        print("""
+                        Enter PIN
+                        """)
+                        pin = input(' ')
+                        print("""
+                        Transaction in progress.
+                        """)
+                    elif data_selection == '7':
+                        print("""
+                        Enter PIN
+                        """)
+                        pin = input(' ')
+                        print("""
+                        Transaction in progress.
+                        """)
+                    elif data_selection == '8':
+                        print("""
+                        Enter PIN
+                        """)
+                        pin = input(' ')
+                        print("""
+                        Transaction in progress.
+                        """)
+                    elif data_selection == 'n':
+                        print("""
+                        9 Night 5GB @ 4K
+                        0 Prev
+                        * Back
+                        """)
+                        select_then = input(' ')
+                        if select_then == '9':
+                            print("""
+                            Enter PIN
+                            """)
+                        elif select_then == '0':
+                            print("""
+                            1 500/- for 80MB
+                            2 1000/- for 180MB
+                            3 2000/- for 400MB
+                            4 5000/- for 2GB
+                            5 250/- for 30MB
+                            6 11500/- for 4GB (3Days)
+                            7 7500/- for 2GB (3Days)
+                            8 Night 2GB @ 2K
+                            n next
+                            * Back
+                            """)
+                            data_selection = input(' ')
+                        else:
+                            print('Invalid selection.')
+                    elif data_selection == '*':
+                        print("""
+                        1 Daily
+                        2 Weekly
+                        3 Monthly
+                        4 TV Bundles
+                        5 Chillax Bundles
+                        6 Roaming Data
+                        * Back
+                        """)
+                        further_selection = input(' ')
+                    else:
+                        print('Invalid selection.')
+                elif further_selection == '2':
+                    print("""
+                    1 5000/- for 1.5GB
+                    2 10000/- for 3GB
+                    3 15000/- for 5.5GB
+                    4 22500/- for 9GB
+                    * Back
+                    """)
+                    then_select = input(' ')
+                    if then_select == '1':
+                        print("""
+                        Please Enter PIN
+                        """)
+                        pin = input(' ')
+                        print("""
+                        Transaction in progress.
+                        """)
+                    elif then_select == '2':
+                        print("""
+                        Please Enter PIN
+                        """)
+                        pin = input(' ')
+                        print("""
+                        Transaction in progress.
+                        """)
+                    elif then_select == '3':
+                        print("""
+                        Please Enter PIN
+                        """)
+                        pin = input(' ')
+                        print("""
+                        Transaction in progress.
+                        """)
+                    elif then_select == '4':
+                        print("""
+                        Please Enter PIN
+                        """)
+                        pin = input(' ')
+                        print("""
+                        Transaction in progress.
+                        """)
+                    elif then_select == '*':
+                        print("""
+                        1 Daily
+                        2 Weekly
+                        3 Monthly
+                        4 TV Bundles
+                        5 Chillax Bundles
+                        6 Roaming Data
+                        * Back
+                        """)
+                        further_selection = input(' ')
+                    else:
+                        print('Invalid selection.')
+                elif further_selection == '3':
+                    print("""
+                    1 10000/- for 2.5GB
+                    2 15000/- for 5GB
+                    3 30000/- for 12GB
+                    4 50000/- for 22GB
+                    5 100000/- for 50GB
+                    6 150000/- for 81GB
+                    * Back
+                    """)
+                    then_select = input(' ')
+                    if then_select == '1':
+                        print("""
+                        Please Enter PIN
+                        """)
+                        pin = input(' ')
+                        print("""
+                        Transaction in progress.
+                        """)
+                    elif then_select == '2':
+                        print("""
+                        Please Enter PIN
+                        """)
+                        pin = input(' ')
+                        print("""
+                        Transaction in progress.
+                        """)
+                    elif then_select == '3':
+                        print("""
+                        Please Enter PIN
+                        """)
+                        pin = input(' ')
+                        print("""
+                        Transaction in progress.
+                        """)
+                    elif then_select == '4':
+                        print("""
+                        Please Enter PIN
+                        """)
+                        pin = input(' ')
+                        print("""
+                        Transaction in progress.
+                        """)
+                    elif then_select == '5':
+                        print("""
+                        Please Enter PIN
+                        """)
+                        pin = input(' ')
+                        print("""
+                        Transaction in progress.
+                        """)
+                    elif then_select == '6':
+                        print("""
+                        Please Enter PIN
+                        """)
+                        pin = input(' ')
+                        print("""
+                        Transaction in progress.
+                        """)
+                    elif then_select == '*':
+                        print("""
+                        1 Daily
+                        2 Weekly
+                        3 Monthly
+                        4 TV Bundles
+                        5 Chillax Bundles
+                        6 Roaming Data
+                        * Back
+                        """)
+                        further_selection = input(' ')
+                    else:
+                        print('Invalid selection.')
+                elif further_selection == '4':
+                    print("""
+                    1 Airtel TV Bundles
+                    2 DSTV Bundles
+                    3 Afro Media Bundles
+                    * Back
+                    """)
+
+
     elif first_qn == '3':
         print("""
         Enter amount
