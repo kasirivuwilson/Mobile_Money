@@ -1702,7 +1702,499 @@ if "".join(code_list) == '*185#':
                     else:
                         print('Invalid selection.')
                 elif other_selection == '4':
-                    
+                    print("""
+                    1 Airtel TV Bundles
+                    2 DSTV Bundles
+                    3 Afro Media Bundles
+                    * Back
+                    """)
+                    data_select = input(' ')
+                    if data_select == '1':
+                        print("""
+                        1 Daily_500MB @ 2K/-
+                        2 Weekly 3.5GB @ 10K/-
+                        3 Monthly_12GB @ 30K/-
+                        * Back
+                        """)
+                        data_select_then = input(' ')
+                        if data_select_then == '1':
+                            print("""
+                            Please enter other number (070xxx 075xx or 020xx or 0740xx)
+                            """)
+                            number = input(' ')
+                            print("""
+                            Enter PIN
+                            """)
+                            pin = input(' ')
+                            print("""
+                            Transaction in progress.
+                            """)
+                        elif data_select_then == '2':
+                            print("""
+                            Please enter other number (070xxx 075xx or 020xx or 0740xx)
+                            """)
+                            number = input(' ')
+                            print("""
+                            Enter PIN
+                            """)
+                            pin = input(' ')
+                            print("""
+                            Transaction in progress.
+                            """)
+                        elif data_select_then == '3':
+                            print("""
+                            Please enter other number (070xxx 075xx or 020xx or 0740xx)
+                            """)
+                            number = input(' ')
+                            print("""
+                            Enter PIN
+                            """)
+                            pin = input(' ')
+                            print("""
+                            Transaction in progress.
+                            """)
+                        elif data_select_then == '*':
+                            print("""
+                            1 Airtel TV Bundles
+                            2 DSTV Bundles
+                            3 Afro Media Bundles
+                            * Back
+                            """)
+                            data_select = input(' ')
+                        else:
+                            print('Invalid selection.')
+                    elif data_select == '2':
+                        print("""
+                        1 Daily_500MB @ 2K/-
+                        2 Weekly 3.5GB @ 10K/-
+                        3 Monthly_12GB @ 30K/-
+                        * Back
+                        """)
+                        data_select_then = input(' ')
+                        if data_select_then == '1':
+                            print("""
+                            Please enter other number (070xxx 075xx or 020xx or 0740xx)
+                            """)
+                            number = input(' ')
+                            print("""
+                            Enter PIN
+                            """)
+                            pin = input(' ')
+                            print("""
+                            Transaction in progress.
+                            """)
+                        elif data_select_then == '2':
+                            print("""
+                            Please enter other number (070xxx 075xx or 020xx or 0740xx)
+                            """)
+                            number = input(' ')
+                            print("""
+                            Enter PIN
+                            """)
+                            pin = input(' ')
+                            print("""
+                            Transaction in progress.
+                            """)
+                        elif data_select_then == '3':
+                            print("""
+                            Please enter other number (070xxx 075xx or 020xx or 0740xx)
+                            """)
+                            number = input(' ')
+                            print("""
+                            Enter PIN
+                            """)
+                            pin = input(' ')
+                            print("""
+                            Transaction in progress.
+                            """)
+                        elif data_select_then == '*':
+                            print("""
+                            1 Airtel TV Bundles
+                            2 DSTV Bundles
+                            3 Afro Media Bundles
+                            * Back
+                            """)
+                            data_select = input(' ')
+                        else:
+                            print('Invalid selection.')
+                    elif data_select == '3':
+                        print("""
+                        1 Daily_500MB @ 2K/-
+                        2 Weekly 3.5GB @ 10K/-
+                        3 Monthly_12GB @ 30K/-
+                        * Back
+                        """)
+                        data_select_then = input(' ')
+                        if data_select_then == '1':
+                            print("""
+                            Please enter other number (070xxx 075xx or 020xx or 0740xx)
+                            """)
+                            number = input(' ')
+                            print("""
+                            Enter PIN
+                            """)
+                            pin = input(' ')
+                            print("""
+                            Transaction in progress.
+                            """)
+                        elif data_select_then == '2':
+                            print("""
+                            Please enter other number (070xxx 075xx or 020xx or 0740xx)
+                            """)
+                            number = input(' ')
+                            print("""
+                            Enter PIN
+                            """)
+                            pin = input(' ')
+                            print("""
+                            Transaction in progress.
+                            """)
+                        elif data_select_then == '3':
+                            print("""
+                            Please enter other number (070xxx 075xx or 020xx or 0740xx)
+                            """)
+                            number = input(' ')
+                            print("""
+                            Enter PIN
+                            """)
+                            pin = input(' ')
+                            print("""
+                            Transaction in progress.
+                            """)
+                        elif data_select_then == '*':
+                            print("""
+                            1 Airtel TV Bundles
+                            2 DSTV Bundles
+                            3 Afro Media Bundles
+                            * Back
+                            """)
+                            data_select = input(' ')
+                        else:
+                            print('Invalid selection.')
+                    elif data_select == '*':
+                        print("""
+                        1 Daily
+                        2 Weekly
+                        3 Monthly
+                        4 TV Bundles
+                        5 Chillax Bundles
+                        6 Roaming Data
+                        7 WIFI Indoor bundles
+                        * Back
+                        """)
+                        further_selection = input(' ')
+                    else:
+                        print('Invalid selection.')
+                elif other_selection == '5':
+                    print("""
+                    1 100,000/- for 45GB
+                    2 50,000/- for 20GB
+                    3 25,000/- for 9GB
+                    4 16,000/- for 5.5GB
+                    5 7,500/- for 2.5GB
+                    6 5,000/- for 1.5GB
+                    * Back
+                    """)
+                    chillax_selection = input(' ')
+                    if chillax_selection == '1':
+                        print("""
+                        Please enter other number (070xxx 075xx or 020xx or 0740xx)
+                        """)
+                        number = input(' ')
+                        print("""
+                            Enter PIN
+                            """)
+                        pin = input(' ')
+                        print("""
+                        Transaction in progress.
+                        """)
+                    elif chillax_selection == '2':
+                        print("""
+                        Please enter other number (070xxx 075xx or 020xx or 0740xx)
+                        """)
+                        number = input(' ')
+                        print("""
+                            Enter PIN
+                            """)
+                        pin = input(' ')
+                        print("""
+                        Transaction in progress.
+                        """)
+                    elif chillax_selection == '3':
+                        print("""
+                        Please enter other number (070xxx 075xx or 020xx or 0740xx)
+                        """)
+                        number = input(' ')
+                        print("""
+                            Enter PIN
+                            """)
+                        pin = input(' ')
+                        print("""
+                        Transaction in progress.
+                        """)
+                    elif chillax_selection == '4':
+                        print("""
+                        Please enter other number (070xxx 075xx or 020xx or 0740xx)
+                        """)
+                        number = input(' ')
+                        print("""
+                            Enter PIN
+                            """)
+                        pin = input(' ')
+                        print("""
+                        Transaction in progress.
+                        """)
+                    elif chillax_selection == '5':
+                        print("""
+                        Please enter other number (070xxx 075xx or 020xx or 0740xx)
+                        """)
+                        number = input(' ')
+                        print("""
+                            Enter PIN
+                            """)
+                        pin = input(' ')
+                        print("""
+                        Transaction in progress.
+                        """)
+                    elif chillax_selection == '6':
+                        print("""
+                        Please enter other number (070xxx 075xx or 020xx or 0740xx)
+                        """)
+                        number = input(' ')
+                        print("""
+                            Enter PIN
+                            """)
+                        pin = input(' ')
+                        print("""
+                        Transaction in progress.
+                        """)
+                    elif chillax_selection == '*':
+                        print("""
+                        1 Daily
+                        2 Weekly
+                        3 Monthly
+                        4 TV Bundles
+                        5 Chillax Bundles
+                        6 Roaming Data
+                        7 WIFI Indoor bundles
+                        * Back
+                        """)
+                        further_selection = input(' ')
+                    else:
+                        print('Invalid selection.')
+                elif other_selection == '6':
+                    print("""
+                    1 One Network Bundles
+                    2 Global Bundles
+                    * Back
+                    """)
+                    roam_select = input(' ')
+                    if roam_select == '1':
+                        print("""
+                        1
+                        KE,RW,TZ,DRC,NG,IND,RC,GB,NI,SEY,MD,ZM,CH,MU,BA,SR
+                        * Back
+                        """)
+                        roam_further_select = input(' ')
+                        if roam_further_select == '1':
+                            print("""
+                            1 Daily 400MB:4K
+                            2 Weekly 1GB:8K
+                            3 Weekly 3GB:40K (15 Days)
+                            4 Monthly 10GB:5K
+                            * Back
+                            """)
+                            duration_select = input(' ')
+                            if duration_select == '1':
+                                print("""
+                                Enter PIN
+                                """)
+                                pin = input(' ')
+                                prin("""
+                                Transaction in progress.
+                                """)
+                            elif duration_select == '2':
+                                print("""
+                                Enter PIN
+                                """)
+                                pin = input(' ')
+                                prin("""
+                                Transaction in progress.
+                                """)
+                            elif duration_select == '3':
+                                print("""
+                                Enter PIN
+                                """)
+                                pin = input(' ')
+                                prin("""
+                                Transaction in progress.
+                                """)
+                            elif duration_select == '4':
+                                print("""
+                                Enter PIN
+                                """)
+                                pin = input(' ')
+                                prin("""
+                                Transaction in progress.
+                                """)
+                            elif duration_select == '*':
+                                print("""
+                                1
+                                KE,RW,TZ,DRC,NG,IND,RC,GB,NI,SEY,MD,ZM,CH,MU,BA,SR
+                                * Back
+                                """)
+                                roam_further_select = input(' ')
+                            else:
+                                print('Invalid selection.')
+                        elif roam_further_select == '*':
+                            print("""
+                            1 One Network Bundles
+                            2 Global Bundles
+                            * Back
+                            """)
+                            roam_select = input(' ')
+                        else:
+                            print('Invalid selection.')
+                    elif roam_select == '2':
+                        print("""
+                        1 Daily 400MB:40K
+                        2 Weekly 1GB:110k
+                        3 Weekly 3GB:185k
+                        4 Monthly 10GB:550k
+                        * Back
+                        """)
+                        data_roam_select = input(' ')
+                        if data_roam_select == '1':
+                            print("""
+                            Enter pin
+                            """)
+                            pin = input(' ')
+                            print("""
+                            Transaction in progress.
+                            """)
+                        elif data_roam_select == '2':
+                            print("""
+                            Enter pin
+                            """)
+                            pin = input(' ')
+                            print("""
+                            Transaction in progress.
+                            """)
+                        elif data_roam_select == '3':
+                            print("""
+                            Enter pin
+                            """)
+                            pin = input(' ')
+                            print("""
+                            Transaction in progress.
+                            """)
+                        elif data_roam_select == '4':
+                            print("""
+                            Enter pin
+                            """)
+                            pin = input(' ')
+                            print("""
+                            Transaction in progress.
+                            """)
+                        elif data_roam_select == '*':
+                            print("""
+                            1 One Network Bundles
+                            2 Global Bundles
+                            * Back
+                            """)
+                            roam_select = input(' ')
+                        else:
+                            print('Invalid selection.')
+                    elif roam_select == '*':
+                        print("""
+                        1 Daily 
+                        2 Weekly
+                        3 Monthly
+                        4 TV Bundles
+                        5 Chillax Bundles
+                        6 Roaming Data
+                        7 WIFI Indoor bundles
+                        * Back
+                        """)
+                        other_selection = input(' ')
+                    else:
+                        print('Invalid selection.')
+                elif other_selection == '7':
+                    print("""
+                    1 WIFI_50GB_Indoor@100k
+                    2 Wifi_120GB_Indoor@20k
+                    3 Wifi_200GB_Indoor@30k
+                    * Back
+                    """)
+                    wifi_select = input(' ')
+                    if wifi_select == '1':
+                        print("""
+                        Please enter bnumber (075xxx, 070xxx or 020xxx):
+                        #.to quit
+                        """)
+                        bnumber = input(' ')
+                        print("""
+                        Enter PIN
+                        """)
+                        pin = input(' ')
+                        print("""
+                        Transaction in progress.
+                        """)
+                    elif wifi_select == '2':
+                        print("""
+                        Please enter bnumber (075xxx, 070xxx or 020xxx):
+                        #.to quit
+                        """)
+                        bnumber = input(' ')
+                        print("""
+                        Enter PIN
+                        """)
+                        pin = input(' ')
+                        print("""
+                        Transaction in progress.
+                        """)
+                    elif wifi_select == '3':
+                        print("""
+                        Please enter bnumber (075xxx, 070xxx or 020xxx):
+                        #.to quit
+                        """)
+                        bnumber = input(' ')
+                        print("""
+                        Enter PIN
+                        """)
+                        pin = input(' ')
+                        print("""
+                        Transaction in progress.
+                        """)
+                    elif wifi_select == '*':
+                        print("""
+                        1 Daily 
+                        2 Weekly
+                        3 Monthly
+                        4 TV Bundles
+                        5 Chillax Bundles
+                        6 Roaming Data
+                        7 WIFI Indoor bundles
+                        * Back
+                        """)
+                        other_selection = input(' ')
+                    else:
+                        print('Invalid selection.')
+                elif other_selection == '*':
+                    print("""
+                    Data Bundles 
+                    1.Buy for Self
+                    2.Buy for Another
+
+                    0.Back 00.Main Menu
+                    """)
+                    more_selection = input(' ')
+                else:
+                    print('Invalid selection.')
+        elif selection == '3':
+
+
+                            
                  
 
 
