@@ -1,2 +1,2 @@
-# Project_password
-A combination of python files that together run a password encrypted program.
+# Airtel Money services. 
+This is a python program that emulates the dial pad interaction when using Airtel Mobile Money services.
