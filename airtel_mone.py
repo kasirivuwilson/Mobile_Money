@@ -2192,17 +2192,932 @@ if "".join(code_list) == '*185#':
                 else:
                     print('Invalid selection.')
         elif selection == '3':
+            print("""
+            Voice Bundles
+            0 Monthly 300Mins@10k
+            1 Buy For Self
+            2  Buy for Another
+            """)
+            part_selection = input(' ')
+            if part_selection == '0':
+                print("""
+                Enter PIN
+                """)
+                pin = input(' ')
+                print("""
+                Transaction in progress.
+                """)
+            elif part_selection == '1':
+                print("""
+                1 Daily Bundles
+                2 Weekly Bundle
+                3 Monthly  Bundle
+                4 Supa Combo/Kyabise
+                5 Night Bundles(10pm-6am)
+                * Back
+                """)
+                part_select_further = input(' ')
+                if part_select_further == '1':
+                    print("""
+                    0 Monthly 300Mins@10K
+                    1 Pakalast 30mins @1000
+                    2 100mins@2000
+                    3 300mins@5000-3days
+                    4 kawa 10mins @500
+                    5 Power Tooti
+                    * Back
+                    """)
+                    final_further = input(' ')
+                    if final_further == '0':
+                        print("""
+                        Enter PIN
+                        """)
+                        pin = input(' ')
+                        print("""
+                        Transaction in progress.
+                        """)
+                    elif final_further == '1':
+                        print("""
+                        Enter PIN
+                        """)
+                        pin = input(' ')
+                        print("""
+                        Transaction in progress.
+                        """)
+                    elif final_further == '2':
+                        print("""
+                        Enter PIN
+                        """)
+                        pin = input(' ')
+                        print("""
+                        Transaction in progress.
+                        """)
+                    elif final_further == '3':
+                        print("""
+                        Enter PIN
+                        """)
+                        pin = input(' ')
+                        print("""
+                        Transaction in progress.
+                        """)
+                    elif final_further == '4':
+                        print("""
+                        Enter PIN
+                        """)
+                        pin = input(' ')
+                        print("""
+                        Transaction in progress.
+                        """)
+                    elif final_further == '5':
+                        print("""
+                        Enter PIN
+                        """)
+                        pin = input(' ')
+                        print("""
+                        Transaction in progress.
+                        """)
+                    elif final_further == '*':
+                        print("""
+                        1 Daily Bundles
+                        2 Weekly Bundle
+                        3 Monthly  Bundle
+                        4 Supa Combo/Kyabise
+                        5 Night Bundles(10pm-6am)
+                        * Back
+                        """)
+                        part_select_further = input(' ')
+                    else:
+                        print('Invalid selection.')
+                elif part_select_further == '2':
+                    print("""
+                    1 45mins@2000
+                    2 Kawa 90Mins @3500
+                    3 Pakalast 225Mins@6000
+                    * Back
+                    """)
+                    final_further = input(' ')
+                    if final_further == '1':
+                        print("""
+                        Enter PIN
+                        """)
+                        pin = input(' ')
+                        print("""
+                        Transaction in progress.
+                        """)
+                    elif final_further == '2':
+                        print("""
+                        Enter PIN
+                        """)
+                        pin = input(' ')
+                        print("""
+                        Transaction in progress.
+                        """)
+                    elif final_further == '3':
+                        print("""
+                        Enter PIN
+                        """)
+                        pin = input(' ')
+                        print("""
+                        Transaction in progress.
+                        """)
+                    elif final_further == '*':
+                        print("""
+                        1 Daily Bundles
+                        2 Weekly Bundle
+                        3 Monthly  Bundle
+                        4 Supa Combo/Kyabise
+                        5 Night Bundles(10pm-6am)
+                        * Back
+                        """)
+                        part_select_further = input(' ')
+                    else:
+                        print('Invalid selection.')
+                elif part_select_further == '3':
+                    print("""
+                    1 CMB 4500Mins@50K
+                    2 CMB 200Mins@30K
+                    3 CMB 750Mins@10k 2 Weeks
+                    4 125Mins@5K
+                    5 300Mins@10K
+                    6 CMB 360Mins@75k(90 days)
+                    * Back
+                    """)
+                    monthly_select = input(' ')
+                    if monthly_select == '1':
+                        print("""
+                        Enter PIN
+                        """)
+                        pin = input(' ')
+                        print("""
+                        Transaction in progress.
+                        """)
+                    elif monthly_select == '2':
+                        print("""
+                        Enter PIN
+                        """)
+                        pin = input(' ')
+                        print("""
+                        Transaction in progress.
+                        """)
+                    elif monthly_select == '3':
+                        print("""
+                        Enter PIN
+                        """)
+                        pin = input(' ')
+                        print("""
+                        Transaction in progress.
+                        """)
+                    elif monthly_select == '4':
+                        print("""
+                        Enter PIN
+                        """)
+                        pin = input(' ')
+                        print("""
+                        Transaction in progress.
+                        """)
+                    elif monthly_select == '5':
+                        print("""
+                        Enter PIN
+                        """)
+                        pin = input(' ')
+                        print("""
+                        Transaction in progress.
+                        """)
+                    elif monthly_select == '6':
+                        print("""
+                        Enter PIN
+                        """)
+                        pin = input(' ')
+                        print("""
+                        Transaction in progress.
+                        """)
+                    elif monthly_select == '*':
+                        print("""
+                        1 Daily Bundles
+                        2 Weekly Bundle
+                        3 Monthly  Bundle
+                        4 Supa Combo/Kyabise
+                        5 Night Bundles(10pm-6am)
+                        * Back
+                        """)
+                        part_select_further = input(' ')
+                    else:
+                        print('Invalid selection.')
+                elif part_select_further == '4':
+                    print("""
+                    1 Daily 
+                    2 Weekly 
+                    3 Monthly 
+                    * Back
+                    """)
+                    supa_select = input(' ')
+                    if supa_select == '1':
+                        print("""
+                        1 300 MBs + 35Mins@ 2,500 Daily
+                        2 100 MBs + 15Mins @ 1,000
+                        * Back
+                        """)
+                        supa_further = input(' ')
+                        if supa_further == '1':
+                            print("""
+                            Enter PIN
+                            """)
+                            pin = input(' ')
+                            print("""
+                            Transaction in progress.
+                            """)
+                        elif supa_further == '2':
+                            print("""
+                            Enter PIN
+                            """)
+                            pin = input(' ')
+                            print("""
+                            Transaction in progress.
+                            """)
+                        elif supa_further == '*':
+                            print("""
+                            1 Daily 
+                            2 Weekly 
+                            3 Monthly 
+                            * Back
+                            """)
+                            supa_select = input(' ')
+                        else:
+                            print('Invalid selection.')
+                    elif supa_select == '2':
+                        print("""
+                        1 2GB+ 100Mins@ 10,000 Weekly
+                        2 1.5GB+ 50 Mins @7500 Weekly
+                        * Back
+                        """)
+                        supa_weekly = input(' ')
+                        if supa_weekly == '1':
+                            print("""
+                            Enter PIN
+                            """)
+                            pin = input(' ')
+                            print("""
+                            Transaction in progress.
+                            """)
+                        elif supa_weekly == '2':
+                            print("""
+                            Enter PIN
+                            """)
+                            pin = input(' ')
+                            print("""
+                            Transaction in progress.
+                            """)
+                        elif supa_weekly == '*':
+                            print("""
+                            1 Daily 
+                            2 Weekly 
+                            3 Monthly 
+                            * Back
+                            """)
+                            supa_select = input(' ')
+                        else:
+                            print('Invalid selection.')
+                    elif supa_select == '3':
+                        print("""
+                        1 10GB+ 1200 Mins @50,000 Monthly
+                        2 4GB+ 500 Mins@ 25,000 Monthly
+                        * Back
+                        """)
+                        supa_weekly = input(' ')
+                        if supa_weekly == '1':
+                            print("""
+                            Enter PIN
+                            """)
+                            pin = input(' ')
+                            print("""
+                            Transaction in progress.
+                            """)
+                        elif supa_weekly == '2':
+                            print("""
+                            Enter PIN
+                            """)
+                            pin = input(' ')
+                            print("""
+                            Transaction in progress.
+                            """)
+                        elif supa_weekly == '*':
+                            print("""
+                            1 Daily 
+                            2 Weekly 
+                            3 Monthly 
+                            * Back
+                            """)
+                            supa_select = input(' ')
+                        else:
+                            print('Invalid selection.')
+                    elif supa_select == '*':
+                        print("""
+                        1 Daily Bundles
+                        2 Weekly Bundle
+                        3 Monthly  Bundle
+                        4 Supa Combo/Kyabise
+                        5 Night Bundles(10pm-6am)
+                        * Back
+                        """)
+                        part_select_further = input(' ')
+                    else:
+                        print('Invalid selection.')
+                elif part_select_further == '5':
+                    print("""
+                    1 Paka Night 20Min@300
+                    * Back
+                    """)
+                    further_night = input(' ')
+                    if further_night == '1':
+                        print("""
+                        Enter PIN
+                        """)
+                        pin = input(' ')
+                        print("""
+                        Transaction in progress.
+                        """)
+                    elif further_night == '*':
+                        print("""
+                        1 Daily Bundles
+                        2 Weekly Bundle
+                        3 Monthly  Bundle
+                        4 Supa Combo/Kyabise
+                        5 Night Bundles(10pm-6am)
+                        * Back
+                        """)
+                        part_select_further = input(' ')
+                    else:
+                        print('Invalid selection.')
+                elif part_select_further == '*':
+                    print("""
+                    Voice Bundles
+                    0 Monthly 300Mins@10k
+                    1 Buy For Self
+                    2  Buy for Another
+                    """)
+                    part_selection = input(' ')
+                else:
+                    print('Invalid selection.')
+            elif part_selection == '2':
+                print("""
+                1 Daily Bundles
+                2 Weekly Bundle
+                3 Monthly  Bundle
+                4 Supa Combo/Kyabise
+                5 Night Bundles(10pm-6am)
+                * Back
+                """)
+                part_select_further = input(' ')
+                if part_select_further == '1':
+                    print("""
+                    0 Monthly 300Mins@10K
+                    1 Pakalast 30mins @1000
+                    2 100mins@2000
+                    3 300mins@5000-3days
+                    4 kawa 10mins @500
+                    5 Power Tooti
+                    * Back
+                    """)
+                    final_further = input(' ')
+                    if final_further == '0':
+                        print("""
+                        Enter PIN
+                        """)
+                        pin = input(' ')
+                        print("""
+                        Enter Receive Number
+                        """)
+                        receive_number = input(' ')
+                        print("""
+                        Transaction in progress.
+                        """)
+                    elif final_further == '1':
+                        print("""
+                        Enter PIN
+                        """)
+                        pin = input(' ')
+                        print("""
+                        Enter Receive Number
+                        """)
+                        receive_number = input(' ')
+                        print("""
+                        Transaction in progress.
+                        """)
+                    elif final_further == '2':
+                        print("""
+                        Enter PIN
+                        """)
+                        pin = input(' ')
+                        print("""
+                        Enter Receive Number
+                        """)
+                        receive_number = input(' ')
+                        print("""
+                        Transaction in progress.
+                        """)
+                    elif final_further == '3':
+                        print("""
+                        Enter PIN
+                        """)
+                        pin = input(' ')
+                        print("""
+                        Enter Receive Number
+                        """)
+                        receive_number = input(' ')
+                        print("""
+                        Transaction in progress.
+                        """)
+                    elif final_further == '4':
+                        print("""
+                        Enter PIN
+                        """)
+                        pin = input(' ')
+                        print("""
+                        Enter Receive Number
+                        """)
+                        receive_number = input(' ')
+                        print("""
+                        Transaction in progress.
+                        """)
+                    elif final_further == '5':
+                        print("""
+                        Enter PIN
+                        """)
+                        pin = input(' ')
+                        print("""
+                        Enter Receive Number
+                        """)
+                        receive_number = input(' ')
+                        print("""
+                        Transaction in progress.
+                        """)
+                    elif final_further == '*':
+                        print("""
+                        1 Daily Bundles
+                        2 Weekly Bundle
+                        3 Monthly  Bundle
+                        4 Supa Combo/Kyabise
+                        5 Night Bundles(10pm-6am)
+                        * Back
+                        """)
+                        part_select_further = input(' ')
+                    else:
+                        print('Invalid selection.')
+                elif part_select_further == '2':
+                    print("""
+                    1 45mins@2000
+                    2 Kawa 90Mins @3500
+                    3 Pakalast 225Mins@6000
+                    * Back
+                    """)
+                    final_further = input(' ')
+                    if final_further == '1':
+                        print("""
+                        Enter PIN
+                        """)
+                        pin = input(' ')
+                        print("""
+                        Enter Receive Number
+                        """)
+                        receive_number = input(' ')
+                        print("""
+                        Transaction in progress.
+                        """)
+                    elif final_further == '2':
+                        print("""
+                        Enter PIN
+                        """)
+                        pin = input(' ')
+                        print("""
+                        Enter Receive Number
+                        """)
+                        receive_number = input(' ')
+                        print("""
+                        Transaction in progress.
+                        """)
+                    elif final_further == '3':
+                        print("""
+                        Enter PIN
+                        """)
+                        pin = input(' ')
+                        print("""
+                        Enter Receive Number
+                        """)
+                        receive_number = input(' ')
+                        print("""
+                        Transaction in progress.
+                        """)
+                    elif final_further == '*':
+                        print("""
+                        1 Daily Bundles
+                        2 Weekly Bundle
+                        3 Monthly  Bundle
+                        4 Supa Combo/Kyabise
+                        5 Night Bundles(10pm-6am)
+                        * Back
+                        """)
+                        part_select_further = input(' ')
+                    else:
+                        print('Invalid selection.')
+                elif part_select_further == '3':
+                    print("""
+                    1 CMB 4500Mins@50K
+                    2 CMB 200Mins@30K
+                    3 CMB 750Mins@10k 2 Weeks
+                    4 125Mins@5K
+                    5 300Mins@10K
+                    6 CMB 360Mins@75k(90 days)
+                    * Back
+                    """)
+                    monthly_select = input(' ')
+                    if monthly_select == '1':
+                        print("""
+                        Enter PIN
+                        """)
+                        pin = input(' ')
+                        print("""
+                        Enter Receive Number
+                        """)
+                        receive_number = input(' ')
+                        print("""
+                        Transaction in progress.
+                        """)
+                    elif monthly_select == '2':
+                        print("""
+                        Enter PIN
+                        """)
+                        pin = input(' ')
+                        print("""
+                        Enter Receive Number
+                        """)
+                        receive_number = input(' ')
+                        print("""
+                        Transaction in progress.
+                        """)
+                    elif monthly_select == '3':
+                        print("""
+                        Enter PIN
+                        """)
+                        pin = input(' ')
+                        print("""
+                        Enter Receive Number
+                        """)
+                        receive_number = input(' ')
+                        print("""
+                        Transaction in progress.
+                        """)
+                    elif monthly_select == '4':
+                        print("""
+                        Enter PIN
+                        """)
+                        pin = input(' ')
+                        print("""
+                        Enter Receive Number
+                        """)
+                        receive_number = input(' ')
+                        print("""
+                        Transaction in progress.
+                        """)
+                    elif monthly_select == '5':
+                        print("""
+                        Enter PIN
+                        """)
+                        pin = input(' ')
+                        print("""
+                        Enter Receive Number
+                        """)
+                        receive_number = input(' ')
+                        print("""
+                        Transaction in progress.
+                        """)
+                    elif monthly_select == '6':
+                        print("""
+                        Enter PIN
+                        """)
+                        pin = input(' ')
+                        print("""
+                        Enter Receive Number
+                        """)
+                        receive_number = input(' ')
+                        print("""
+                        Transaction in progress.
+                        """)
+                    elif monthly_select == '*':
+                        print("""
+                        1 Daily Bundles
+                        2 Weekly Bundle
+                        3 Monthly  Bundle
+                        4 Supa Combo/Kyabise
+                        5 Night Bundles(10pm-6am)
+                        * Back
+                        """)
+                        part_select_further = input(' ')
+                    else:
+                        print('Invalid selection.')
+                elif part_select_further == '4':
+                    print("""
+                    1 Daily 
+                    2 Weekly 
+                    3 Monthly 
+                    * Back
+                    """)
+                    supa_select = input(' ')
+                    if supa_select == '1':
+                        print("""
+                        1 300 MBs + 35Mins@ 2,500 Daily
+                        2 100 MBs + 15Mins @ 1,000
+                        * Back
+                        """)
+                        supa_further = input(' ')
+                        if supa_further == '1':
+                            print("""
+                            Enter PIN
+                            """)
+                            pin = input(' ')
+                            print("""
+                            Enter Receive Number
+                            """)
+                            receive_number = input(' ')
+                            print("""
+                            Transaction in progress.
+                            """)
+                        elif supa_further == '2':
+                            print("""
+                            Enter PIN
+                            """)
+                            pin = input(' ')
+                            print("""
+                            Enter Receive Number
+                            """)
+                            receive_number = input(' ')
+                            print("""
+                            Transaction in progress.
+                            """)
+                        elif supa_further == '*':
+                            print("""
+                            1 Daily 
+                            2 Weekly 
+                            3 Monthly 
+                            * Back
+                            """)
+                            supa_select = input(' ')
+                        else:
+                            print('Invalid selection.')
+                    elif supa_select == '2':
+                        print("""
+                        1 2GB+ 100Mins@ 10,000 Weekly
+                        2 1.5GB+ 50 Mins @7500 Weekly
+                        * Back
+                        """)
+                        supa_weekly = input(' ')
+                        if supa_weekly == '1':
+                            print("""
+                            Enter PIN
+                            """)
+                            pin = input(' ')
+                            print("""
+                            Enter Receive Number
+                            """)
+                            receive_number = input(' ')
+                            print("""
+                            Transaction in progress.
+                            """)
+                        elif supa_weekly == '2':
+                            print("""
+                            Enter PIN
+                            """)
+                            pin = input(' ')
+                            print("""
+                            Enter Receive Number
+                            """)
+                            receive_number = input(' ')
+                            print("""
+                            Transaction in progress.
+                            """)
+                        elif supa_weekly == '*':
+                            print("""
+                            1 Daily 
+                            2 Weekly 
+                            3 Monthly 
+                            * Back
+                            """)
+                            supa_select = input(' ')
+                        else:
+                            print('Invalid selection.')
+                    elif supa_select == '3':
+                        print("""
+                        1 10GB+ 1200 Mins @50,000 Monthly
+                        2 4GB+ 500 Mins@ 25,000 Monthly
+                        * Back
+                        """)
+                        supa_weekly = input(' ')
+                        if supa_weekly == '1':
+                            print("""
+                            Enter PIN
+                            """)
+                            pin = input(' ')
+                            print("""
+                            Enter Receive Number
+                            """)
+                            receive_number = input(' ')
+                            print("""
+                            Transaction in progress.
+                            """)
+                        elif supa_weekly == '2':
+                            print("""
+                            Enter PIN
+                            """)
+                            pin = input(' ')
+                            print("""
+                            Enter Receive Number
+                            """)
+                            receive_number = input(' ')
+                            print("""
+                            Transaction in progress.
+                            """)
+                        elif supa_weekly == '*':
+                            print("""
+                            1 Daily 
+                            2 Weekly 
+                            3 Monthly 
+                            * Back
+                            """)
+                            supa_select = input(' ')
+                        else:
+                            print('Invalid selection.')
+                    elif supa_select == '*':
+                        print("""
+                        1 Daily Bundles
+                        2 Weekly Bundle
+                        3 Monthly  Bundle
+                        4 Supa Combo/Kyabise
+                        5 Night Bundles(10pm-6am)
+                        * Back
+                        """)
+                        part_select_further = input(' ')
+                    else:
+                        print('Invalid selection.')
+                elif part_select_further == '5':
+                    print("""
+                    1 Paka Night 20Min@300
+                    * Back
+                    """)
+                    further_night = input(' ')
+                    if further_night == '1':
+                        print("""
+                        Enter PIN
+                        """)
+                        pin = input(' ')
+                        print("""
+                        Enter Receive Number
+                        """)
+                        receive_number = input(' ')
+                        print("""
+                        Transaction in progress.
+                        """)
+                    elif further_night == '*':
+                        print("""
+                        1 Daily Bundles
+                        2 Weekly Bundle
+                        3 Monthly  Bundle
+                        4 Supa Combo/Kyabise
+                        5 Night Bundles(10pm-6am)
+                        * Back
+                        """)
+                        part_select_further = input(' ')
+                    else:
+                        print('Invalid selection.')
+                elif part_select_further == '*':
+                    print("""
+                    Voice Bundles
+                    0 Monthly 300Mins@10k
+                    1 Buy For Self
+                    2  Buy for Another
+                    """)
+                    part_selection = input(' ')
+                else:
+                    print('Invalid selection.')
+        elif selection == '4':
+            print("""
+            IControl
+            1.Subscribe
+            2.Make Payment
 
+            0.Back 00.Main Menu
+            """)
+            i_select = input(' ')
+            if i_select == '1':
+                print("""
+                Subscribe
+                1.IControl 60k
+                2.IControl 200k
+                3.IControl 300k
+                4.IControl 500k
 
-                            
-                 
+                0.Back 00.Main Menu
+                """)
+                i_select_further = input(' ')
+                if i_select_further == '1':
+                    print("""
+                    Subscribing for IControl of UGX60,000 Enter your PIN to confirm
 
+                    0.Back 00.Main Menu
+                    """)
+                    pin = input(' ')
+                    print(""""
+                    Transaction in progress.
+                    """)
+                elif i_select_further == '2':
+                    print("""
+                    Subscribing for IControl of UGX200,000 Enter your PIN to confirm
 
+                    0.Back 00.Main Menu
+                    """)
+                    pin = input(' ')
+                    print(""""
+                    Transaction in progress.
+                    """)
+                elif i_select_further == '3':
+                    print("""
+                    Subscribing for IControl of UGX300,000 Enter your PIN to confirm
+
+                    0.Back 00.Main Menu
+                    """)
+                    pin = input(' ')
+                    print(""""
+                    Transaction in progress.
+                    """)
+                elif i_select_further == '4':
+                    print("""
+                    Subscribing for IControl of UGX500,000 Enter your PIN to confirm
+
+                    0.Back 00.Main Menu
+                    """)
+                    pin = input(' ')
+                    print(""""
+                    Transaction in progress.
+                    """)
+                elif i_select_further == '0':
+                    print("""
+                    IControl
+                    1.Subscribe
+                    2.Make Payment
+
+                    0.Back 00.Main Menu
+                    """)
+                    i_select = input(' ')
+                else:
+                    print('Invalid selection.')
+            elif i_select == '2':
+                print("""
+                Sorry, we failed to lookup your information. Please try again later.
+                                                                                   0k
+                """)
+            elif i_select == '0':
+                print("""
+                Airtime / Bundles
+                1.Buy Airtime
+                2.Buy Data Bundles(Offers Inside)
+                3.Buy Voice Bundles
+                4.IControl
+
+                0.Back 00.Main Menu
+                """)
+                selection = input(' ')
+            else:
+                print('Invalid selection.')
+        elif selection == '0':
+            print("""
+            1.Send Money
+            2.Airtime/Bundles
+            3.Withdraw cash
+            4.Pay Bill
+            5.Payments
+            6.School Fees
+            7.Financial services
+            8.Wewole
+            9.AirtelMoney Pay
+            10.My account
+
+                        Cancel  SEND
+            """)
+        else:
+            print('Invalid selection.')
     elif first_qn == '3':
         print("""
         Enter amount
 
         0.Back 00.Main Menu
+        """)
+        with_draw_amount = input(' ')
+        print("""
+        You have initiated withdraw of {with_draw_amount} and charged UGX 880.
+        Confirm your PIN.
+         0.Back 00.Main Menu
+        """)
+        pin = input(' ')
+        print("""
+        Transaction in progress.
         """)
     elif first_qn == '4':
         print("""
