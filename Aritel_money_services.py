@@ -4550,8 +4550,230 @@ if "".join(code_list) == '*185#':
                 Primary school name 
                                         OK
                 """)
-            
+        elif account == '2':
+            print("""
+            Enter your PIN to confirm
 
+            0.Back 00.Main Menu
+            """)
+            pin = input(' ')
+            print(f"""
+            Balance: UGX
+            """)
+        elif account == '3':
+            print("""
+            Enter Your Email ID
+
+            0.Back 00.Main Menu
+            """)
+            email = input(' ')
+            print("""
+            Enter the From Date (DDMMYYYY)
+
+            0.Back 00.Main Menu
+            """)
+            from_date = input(' ')
+            print("""
+            Enter Your PIN to confirm
+
+            0.Back 00.Main Menu
+            """)
+            pin = input(' ')
+            print(f"""
+            Statement will be sent to {email}.
+                                         OK
+            """)
+        elif account == '4':
+            print("""
+            Enter your PIN to confirm 
+
+            0.Back 00.Main Menu
+            """)
+            pin = input(' ')
+            print("""
+            Ministatement sent on SMS
+                                 OK
+            """)
+        elif account == '5':
+            print("""
+            Enter the Mobile Number you wish to invite to AirtelMoney
+
+            0.Back 00.Main menu
+            """)
+            invite_number = input(' ')
+            print("""
+            Enter your PIN to confirm
+
+            0.Back 00.Main Menu
+            """)
+            pin = input(' ')
+            print("""
+            Transaction Failed with TXN Id : 71862325138. Sorry, this number has already been invited. Please invite anohtetr numbe3r
+                                                                                                                           OK
+            """)
+        elif account == '6':
+            print("""
+            Messages
+            1.Viral Secret Code
+            2.Resend Recent message
+
+            0.Back 00.Main Menu
+            """)
+            messages = input(' ')
+            print("""
+            Enter Transaction Amount
+
+            0.Back 00.Main Menu
+            """)
+            transaction_amount = input(' ')
+            print("""
+            Enter recipient Mobile Number
+
+            0.Back 00.Main Menu
+            """)
+            recipient_number = input(' ')
+            print("""
+            Transaction Failed with TXN Id: 71862523568. No viral send  request found for the given inputs.
+                                                                                                 OK
+            """)
+        elif account == '7':
+            print("""
+            Enter Transaction ID
+
+            0.Back 00.Main Menu
+            """)
+            transaction_id = input(' ')
+            print("""
+            Enter your PIN to confirm
+
+            0.Back 00.Main Menu
+            """)
+            pin = input(' ')
+            print("""
+            Dear customer, the transaction Id does not exist.
+                                                 OK
+            """)
+        elif account == '8':
+            print("""
+            My Transaction Reversals
+            1.Initiate Transaction Reversal
+            2.Approve Pending Reversal
+
+            0.Back 00.Main Menu
+            """)
+            transaction_reversal = input(' ')
+            if transaction_reversal == '1':
+                print("""
+                Select Transaction:
+                1.Other Send Transactions
+
+                0.Back 00.Main Menu
+                """)
+                further_transaction = input(' ')
+                if further_transaction == '1':
+                    print("""
+                    Enter Transaction ID:
+                    """)
+                    transaction_id_required = input(' ')
+                    print("""
+                    Enter PIN to confirm:
+                    
+                    0.Back 00.Main Menu
+                    """)
+                    pin = input(' ')
+                    print("""
+                    There is problem in application.
+                                              OK
+                    """)
+                elif further_transaction == '0':
+                    print("""
+                    My Transaction Reversals
+                    1.Initiate Transaction Reversal
+                    2.Approve Pending Reversal
+
+                    0.Back 00.Main Menu
+                    """)
+                    transaction_reversal = input(' ')
+                else:
+                    print('Invalid selection.')
+            elif transaction_reversal == '2':
+                print("""
+                No transaction pending for approval
+                                             OK
+                """)
+            elif transaction_reversal == '0':
+                print("""
+                My account
+                1.My Pin
+                2.Check Balance
+                3.Request Statement
+                4.Last 4 Transactions
+                5.Invite a Friend
+                6.Messages
+                7.Transaction Status
+                8.My Transaction Reversals
+                9.Agent Locator
+                n Next
+                """)
+                account = input(' ')
+            else:
+                print('Invalid selection.')
+        elif account == '9':
+            print("""
+            1.Airtel Money Branch
+            0.Back 00.Main Menu
+            """)
+            mobile_money_branch = input(' ')
+            print("""
+            Enter first 4 letters of your District: e.g Waki for Wakiso 
+
+            0.Back 00.Main Menu
+            """)
+            district_letters = input(' ')
+            print("""
+            Please wait for SMS.
+            """)
+        elif account == 'n':
+            print("""
+            0.Back 00.Main Menu
+            """)
+            n = input(' ')
+            if n == '0':
+                print("""
+                1.Send Money
+                2.Airtime/Bundles
+                3.Withdraw cash
+                4.Pay Bill
+                5.Payments
+                6.School Fees
+                7.Financial services
+                8.Wewole
+                9.AirtelMoney Pay
+                10.My account
+
+                            Cancel  SEND
+                """)
+
+                first_qn = input(' ')
+            elif n == '00':
+                print("""
+                1.Send Money
+                2.Airtime/Bundles
+                3.Withdraw cash
+                4.Pay Bill
+                5.Payments
+                6.School Fees
+                7.Financial services
+                8.Wewole
+                9.AirtelMoney Pay
+                10.My account
+
+                            Cancel  SEND
+                """)
+
+                first_qn = input('')
+        else:
+            print('Invalid selection.')
     else:
         print('Invalid selection')
 else:
