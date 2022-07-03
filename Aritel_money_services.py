@@ -3135,6 +3135,126 @@ if "".join(code_list) == '*185#':
 
         0.Back 00.Main Menu
         """)
+        pay_bill = input(' ')
+        if pay_bill == '1':
+            print("""
+            1.Pay Bill
+            2.Buy Yaka
+            3.New Connection Payment
+            4.Token Enquiry
+            5.Check UMEME balance
+
+            0.Back 00.Main Menu
+            """)
+        elif pay_bill == '2':
+            print("""
+            Water 
+            1.Pay NWSC
+            2.Check NWSC Balance
+
+            0.Back 00.Main Menu
+            """)
+        elif pay_bill == '3':
+            print("""
+            Pay TV
+            1.DSTV / GOTV
+            2.STARTIMES TV
+            3.AZAM TV
+            4.SIMBA TV
+            5.Zuku 
+
+            0.Back 00.Main Menu
+            """)
+        elif pay_bill == '4':
+            print("""
+            Pay Solar
+            1.MKOPA Solar
+            2.DLIGHT Solar
+            3.Sun King
+            4.SOLAR Now
+            5.VILLAGE Power
+            6.Startimes Solar
+            7.BrightLife
+            8.Tulima Solar
+            9.GNU Grid Africa
+            10.MySolo(ReadyPay)
+            11.WASSHA
+            n Next
+            """)
+        elif pay_bill == '5':
+            print("""
+            Enter meter number
+
+            0.Back 00.Main Menu
+            """)
+            meter_number = input(' ')
+            print("""
+            Meter not FoundSystem
+            Unvailable 
+                                OK
+            """)
+        elif pay_bill == '6':
+            print("""
+            Enter Your Reference Number
+
+            0.Back 00.Main Menu
+            """)
+            reference_number = input(' ')
+            print("""
+            Enter amount
+
+            0.Back 00.Main menu
+            """)
+            amount = input(' ')
+            print(f"""
+            Pay KCCA for {reference_number}. Charge UGX 0. Confirm with your PIN
+
+            0.Back 00.Main Menu 
+            """)
+            pin = input(' ')
+            print("""
+            Transaction in progress.
+            """)
+        elif pay_bill == '7':
+            print("""
+            URA
+            1.Pay Registered 
+            2.Pay Without PRN
+            3.Verify Code
+            4.Search PRN
+
+            0.Back 00.Main Menu
+            """)
+        elif pay_bill == '8':
+            print("""
+            1.Airtel Postpaid
+            2.Fixed Data
+
+            0.Back 00.Main Menu
+            """)
+        elif pay_bill == '9':
+            print("""
+            Enter Business Number 
+
+            0.Back 00.Main Menu
+            """)
+            business_number = input(' ')
+            print("""
+            You are not Register with Airtel Money
+                                              OK
+            """)
+        elif pay_bill == '10':
+            print("""
+            1.WENRECO
+            2.Local Government Payments
+            3.SAVE ELECTRICITY
+
+            0.Back 00.Main Menu
+            """)
+        else:
+            print("""
+            Invalid selection.
+            """)
     elif first_qn == '5':
         print("""
         Payments
