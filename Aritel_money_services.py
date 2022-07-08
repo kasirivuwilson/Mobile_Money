@@ -3281,6 +3281,94 @@ if "".join(code_list) == '*185#':
 
         0.Back 00.Main Menu
         """)
+        school_fees = input(' ')
+        if school_fees == '1':
+            print("""
+            Enter pupil Id
+
+            0.Back 00.Main Menu
+            """)
+            pupil_id = input(' ')
+            print("""
+            Please enter a valid 9 digit numeric pupil id.
+            Re-Enter pupil Id
+
+            Cancel Send
+            """)
+        elif school_fees == '2':
+            print("""
+            School Pay
+            1.Pay Fees
+
+            0.Back 00.Main Menu
+            """)
+            school_pay_further = input(' ')
+            if school_pay_further == '1':
+                print("""
+                Enter Student Number
+
+                0.Back 00.Main Menu
+                """)
+                student_number = input(' ')
+                print("""
+                Enter amount
+
+                0.Back 00.Main Menu
+                """)
+                school_amount = input(' ')
+                print("""
+                No student was found with the specified payment code or registration number.. 
+                Help: Visit https://schoolpay.co.ug/stusearch or Call: 0200.502.140
+                                                                              OK
+                """)
+            elif school_pay_further == '0':
+                print("""
+                School Fees
+                1.Bridge Schools
+                2.School Pay
+                3.PegPay
+
+                0.Back 00.Main Menu
+                """)
+                school_fees = input(' ') 
+            else:
+                print('Invalid selection.')
+        elif school_fees == '3':
+            print("""
+            Enter School Code
+
+            0.Back 00.Main Menu
+            """)
+            school_code = input(' ')
+            print("""
+            Enter Student Number
+
+            0.Back 00.Main Menu
+            """)
+            student_number = input(' ')
+            print("""
+            STUDENT NOT FOUND
+                           OK
+            """)
+        elif school_fees == '0':
+            print("""
+            1.Send Money
+            2.Airtime/Bundles
+            3.Withdraw cash
+            4.Pay Bill
+            5.Payments
+            6.School Fees
+            7.Financial services
+            8.Wewole
+            9.AirtelMoney Pay
+            10.My account
+
+                        Cancel  SEND
+            """)
+
+            first_qn = input('')
+        else:
+            print('Invalid selection.')
     elif first_qn == '7':
         print("""
         Financial Services
@@ -3298,6 +3386,237 @@ if "".join(code_list) == '*185#':
         n Next
     
         """)
+        financial_services = input(' ')
+        if financial_services == '1':
+            print("""
+            Banks
+            1.Equity
+            2.Centenary
+            3.Pride Microfinance
+            4.Absa Bank
+            5.DFCU
+            6.Bank Of Africa
+            7.STANBIC
+            8.NC Bank
+            9.Standard Chartered
+            10.NEXT
+            11.BRAC
+
+            0.Back 00.Main Menu
+
+            """)
+            banks = input(' ')
+            if banks == '1':
+                print("""
+                1.Airtel Money to Bank 
+                2.Bank to Airtel Money
+                3.Account balance
+
+                0.Back 00.Main Menu
+                """)
+                equity = input(' ')
+                if equity == '1':
+                    print("""
+                    1.On my account
+                    2.On another account
+
+                    0.Back 00.Main Menu
+                    """)
+                    equity_further = input(' ')
+                    if equity_further == '1':
+                        print("""
+                        Enter amount
+
+                        0.Back 00.Main Menu
+                        """)
+                        amount = input(' ')
+                        print("""
+                        No Accounts Found
+                                         OK
+                        """)
+                    elif equity_further == '2':
+                        print("""
+                        Enter Account number
+
+                        0.Back 00.Main menu
+                        """)
+                        account_number = input(' ')
+                        print("""
+                        Enter amount
+
+                        0.Back 00.Main Menu
+                        """)
+                        amount = input(' ')
+                        print(f"""
+                        Send UGX {amount} to {account_number}. Charge UGX 0. Enter your PIN to confirm
+
+                        0. Back 00.Main Menu
+                        """)
+                        pin = input(' ')
+                        print("""
+                        Dear customer, the  transaction amount you have entered is insufficient. Thank you.
+                                                                                                                  OK
+                        """)
+                    elif equity_further == '0':
+                        print("""
+                        1.Airtel Money to Bank 
+                        2.Bank to Airtel Money
+                        3.Account balance
+
+                        0.Back 00.Main Menu
+                        """)
+                        equity = input(' ')
+                    else:
+                        print('Invalid selection.')
+                elif equity == '2':
+                    print("""
+                    Enter amount
+
+                    0.Back 00.Main Menu
+                    """)
+                    amount = input(' ')
+                    print("""
+                    No Accounts Found
+                                OK
+                    """)
+                elif equity == '3':
+                    print("""
+                    Charge UGX 0. Confirm with your PIN
+
+                    0.Back 00.Main Menu
+                    """)
+                    pin = input(' ')
+                    print("""
+                    No Accounts Found
+                                    OK
+                    """)
+                elif equity == '0':
+                    print("""
+                    Banks
+                    1.Equity
+                    2.Centenary
+                    3.Pride Microfinance
+                    4.Absa Bank
+                    5.DFCU
+                    6.Bank Of Africa
+                    7.STANBIC
+                    8.NC Bank
+                    9.Standard Chartered
+                    10.NEXT
+                    11.BRAC
+
+                    0.Back 00.Main Menu
+
+                    """)
+                    banks = input(' ')
+                else:
+                    print('Invalid selection.')
+            elif banks == '2':
+                print("""
+                Enter Account Number
+
+                0.Back 00.Main Menu
+                """)
+                account_number = input(' ')
+                print("""
+                Enter amount
+
+                0.Back  00.Main Menu
+                """)
+                amount = input(' ')
+                print(f"""
+                Send UGX {amount} to Centenary bank {account_number}. Charge UGX 0. Enter your PIN to confirm
+
+                0.Back 00.Main Menu
+                """)
+                pin = input(' ')
+                print("""
+                Transaction Failed with TXN Id: 72226316599, You do not have sufficient money on your account. You qualify for Quick Loan to complete transaction.
+                                                                                                                            OK
+                """)
+            elif banks == '3':
+                print("""
+                Enter Account number
+
+                0.Back 00.Main Menu
+                """)
+                account_number = input('')
+                print("""
+                Enter amount
+
+                0.Back 00.Main Menu
+                """)
+                amount = input(' ')
+                print(f"""
+                Send UGX {amount} to Pride Microfinance bank {account_number}. Charge UGX 0. Enter your PIN to confirm
+
+                0.Back 00.Main Menu
+                """)
+                pin = input(' ')
+                print("""
+                Transaction Failed with TXN Id : 72226759813, You do not have sufficient money on your account. You qualify for Quick Loan to complete transaction.
+                                                                                                                                        OK
+                """)
+            elif banks == '4':
+                print("""
+                Enter Account Number
+
+                0.Back 00.Main Menu
+                """)
+                account_number = input(' ')
+                print("""
+                Enter amount
+
+                0.Back 00.Main Menu
+                """)
+                amount = input(' ')
+                print(f"""
+                Send UGX {amount} to {account_number}. Charge UGX 0. Enter your PIN to confirm
+
+                0.Back 00.Main Menu
+                """)
+                pin = input(' ')
+                print("""
+                Transaction Failed with TXN Id :
+                72226994681, You do not have sufficient money on your account. You qualify for Quick Loan to complete transaction.
+                                                                                                                   OK
+                """)
+            elif banks == '5':
+                print("""
+                1.Airtel Money To Bank 
+                2.Bank To Airtel Money
+                
+                0.Back 00.Main Menu
+                """)
+                choice_bank = input(' ')
+                if choice_bank == '1':
+                    print("""
+                    Enter Account Number
+
+                    0.Back 00.Main Menu
+                    """)
+                    account_number = input(' ')
+                    print("""
+                    Enter amount to send
+                    """)
+            elif banks == '6':
+                print("""
+                Enter Account Number
+
+                0.Back 00.Main Menu
+                """)
+                account_number = input(' ')
+                print("""
+                Enter amount 
+
+                0.Back 00.Main Menu
+                """)
+                amount = input(' ')
+                print("""
+
+                """)
+
+
     elif first_qn == '8':
         print("""
         Please accept the JUMO Terms & Conditions to access the Wewole service.
