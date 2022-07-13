@@ -3597,8 +3597,145 @@ if "".join(code_list) == '*185#':
                     """)
                     account_number = input(' ')
                     print("""
-                    Enter amount to send
+                    Failed 
+                         OK
                     """)
+                elif choice_bank == '2':
+                    print("""
+                    Please wait for the nextlevel of  menu.
+                                            OK
+                    """)
+                    print("""
+                    Welcome to dfcu QuickCode Main Men
+                    
+                    1.New User Registration
+                    2.Mobile Money 
+                    3.Airtime / Bundles
+                    4.Funds Transfer
+                    5.MobiLoan
+                    02-Next Page
+
+                                            CANCEL SEND
+                    """)
+                    dfcu = input(' ')
+                    if dfcu == '1':
+                        print("""
+                        Enter your username to be created.
+                        00- Main Menu
+                        """)
+                        username = input(' ')
+                        print("""
+                        Enter your Account Number (Must be 14 digits)
+
+                        0-Back 
+                        00- Main Menu
+                        """)
+                        account_number_dfcu = input(' ')
+                        print("""
+                        Enter your Passport No or National ID No (Must be atleast 7 digits and a maximum of 14 digits)
+
+                        0-Back 
+                        00-Main Menu
+                        """)
+                        passport = input(' ')
+                        print("""
+                        An Error occured:
+                        Unable to perform the operation. 
+                        Check if the data entered is correct.
+                        00- Main Menu
+
+                                                     CANCEL      SEND
+                        """)
+                    elif dfcu == '2':
+                        print("""
+                        Welcome to dfcu QuickCode
+                        Mobile Money
+
+                        1.Bank to wallet
+                        2: Wallet to bank
+                        0: Back
+
+                                     CANCEL     SEND
+                        """)
+                        dfcu_quick_code = input(' ')
+                        if dfcu_quick_code == '1':
+                            print("""
+                            Enter your username to be created.
+                            00- Main Menu
+                            
+                            """)
+                            user_name_quick = input(' ')
+                            print("""
+                            Enter your Account Number (Must be 14 digits)
+                            0- Back 
+                            00- Main Menu
+
+                            """)
+                            account_number_quick = input(' ')
+                            print("""
+                            Enter your Passport No or National ID No (Must be atleast 7 digits and a maximum of 14 digits)
+                            0- Back 
+                            00- Main Menu
+                            """)
+                            national_id = input(' ')
+                            print("""
+                            An Error occured:
+                            Unable to perform the operation.
+                            Check if the data entered is correct.
+                            00- Main Menu
+                            """)
+                        elif dfcu_quick_code == '2':
+                            print("""
+                            Enter your username to be created.
+                            00- Main Menu
+                            
+                            """)
+                            user_name_quick = input(' ')
+                            print("""
+                            Enter your Account Number (Must be 14 digits)
+                            0- Back 
+                            00- Main Menu
+
+                            """)
+                            account_number_quick = input(' ')
+                            print("""
+                            Enter your Passport No or National ID No (Must be atleast 7 digits and a maximum of 14 digits)
+                            0- Back 
+                            00- Main Menu
+                            """)
+                            national_id = input(' ')
+                            print("""
+                            An Error occured:
+                            Unable to perform the operation.
+                            Check if the data entered is correct.
+                            00- Main Menu
+                            """)
+                        elif dfcu_quick_code == '0':
+                            print("""
+                            Welcome to dfcu QuickCode Main Men
+                            
+                            1.New User Registration
+                            2.Mobile Money 
+                            3.Airtime / Bundles
+                            4.Funds Transfer
+                            5.MobiLoan
+                            02-Next Page
+
+                                                    CANCEL SEND
+                            """)
+                            dfcu = input(' ')
+                        else:
+                            print('Invalid selection.')
+                    elif dfcu == '3':
+                        print("""
+                        Welcome to dfcu QuickCode 
+                        Airtime / Bundles
+
+                        1: Airtime
+                        2: Data bundle
+                        0: Main Menu
+                        """)
+
             elif banks == '6':
                 print("""
                 Enter Account Number
